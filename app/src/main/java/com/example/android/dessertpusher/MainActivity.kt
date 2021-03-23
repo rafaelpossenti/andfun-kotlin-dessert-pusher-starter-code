@@ -68,6 +68,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
         super.onCreate(savedInstanceState)
 
         Log.i("MainActivity", "onCreated called")
+        dessertsSold = 0
         // Use Data Binding to get reference to the views
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
